@@ -20,4 +20,4 @@
  
 @see https://github.com/fex-team/ueditor
 
-参考：[［更新］UEditor1.4.3-for-Yii1-扩展](http://www.crazydb.com/archive/更新_UEditor1.4.3-for-Yii1-扩展 "UEditor1.4.3-for-Yii1-扩展")。
+ 
