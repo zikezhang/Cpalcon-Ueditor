@@ -8,6 +8,7 @@
 * download urditor plugin to /public/pugins/ueditor/。
 
 * configurate file is located at /app/config/ueditor.php
+* upload controller is /controller/UploadContoller.php
 
  
 ##todo
