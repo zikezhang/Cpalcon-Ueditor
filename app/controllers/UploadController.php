@@ -24,11 +24,11 @@ class UploadController extends \Phalcon\Mvc\Controller
                 $config    = $this->ueditor->toArray();
                 /***************************************************************
                  * you can also overite some configuration file just like:
-                 * $CONFIG['imagePathFormat'] = CONFIG['imagePathFormat'] . $userid;
+                 * $config['imagePathFormat'] = $config['imagePathFormat'] . $userid;
                  *
                  *
                  ****************************************************************/
-                $fieldName = $CONFIG['imageFieldName'];
+                $fieldName = $config['imageFieldName'];
                 $up = new Uploader($fieldName, $config, 'upload');
                 $result = json_encode($up->getFileInfo());
                 break;
